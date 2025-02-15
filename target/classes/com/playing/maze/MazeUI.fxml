@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.playing.maze.MazeController">
+    <Pane fx:id="canvasPane" prefHeight="580" prefWidth="800">
+        <Canvas fx:id="canvas" height="540" layoutY="20.0" width="600" />
+       <Button layoutX="662.0" layoutY="115.0" onAction="#handleStartGame" text="Start Game" />
+       <Button layoutX="662.0" layoutY="155.0" onAction="#handleTryAgain" prefHeight="26.0" prefWidth="87.0" text="Try Again" />
+    </Pane>
+</VBox>
