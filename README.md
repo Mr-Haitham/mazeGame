@@ -74,7 +74,7 @@ Contributions are welcome! If you wish to contribute:
 
 ## License
 
-*(Add your license here — e.g. MIT, Apache 2.0, GPL — or “All rights reserved” if private)*
+This project is licensed under the [MIT License](LICENSE) – see the LICENSE file for details.
 
 ## Acknowledgments
 
